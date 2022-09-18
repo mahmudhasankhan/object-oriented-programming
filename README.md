@@ -4,7 +4,6 @@ Trying to learn the best practices of oop with python to be more efficient at be
 
 ## Goals
 
----
 * Best practices of python with oop
 * Syntax and conventions
 * Learn oop wholeheartedly so that I don't f*** it up in the interviews.
