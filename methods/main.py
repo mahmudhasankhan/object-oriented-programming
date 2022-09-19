@@ -45,6 +45,19 @@ class Item:
                 quantity=int(item.get('quantity'))
             )
 
+    @staticmethod
+    def check_integer(number):
+        # we will count out the floats that are point zero
+        # for i.e 5.0, 10.0
+        if isinstance(number, float):
+            return number.is_integer()
+        elif isinstance(number, int):
+            return True
+        else:
+            return False
 
-Item.instantiate_from_csv()
-print(Item.item_list)
+
+# Item.instantiate_from_csv()
+# print(Item.item_list)
+
+print(Item.check_integer(7.0))
